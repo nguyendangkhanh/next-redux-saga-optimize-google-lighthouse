@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  html, body {
+    margin: 0; padding: 0;
+  }
+  
+  .container-fluid{
+    padding-right: 0px;
+    padding-left: 10px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    backgroundColor: '#fff3ba'
+
+  }
+  body {
+    font-family: ${fonts.serifFont};
+    width:calc(100% - 1px);
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  a {
+    text-decoration: none;
+  }
+  .row {
+    margin-right: 0;
+  }
+
+  .noPadding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  body, input, button, option, textarea, label, select, legend, h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font: 14px/18px Arial,Helvetica,sans-serif;
+    color: #333;
+    outline: none;
+  }
