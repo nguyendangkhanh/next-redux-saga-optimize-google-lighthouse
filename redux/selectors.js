@@ -1,0 +1,9 @@
+export const getBannersPc = state => state.banners['pc'];
+export const getBannersMobile = state => state.banners['mobile'];
+export const getHotProducts = state => state.hotProducts;
+export const getIsMobile = state => state.isMobile;
+export const getLoaderDataDhis2 = state => state.loaders.getDataDhis2;
+export const getCategoryOptions = state => state.categoryOptions;
+export const getCategories = state => state.categories;
+export const getCategoryCombos = state => state.categoryCombos;
+export const getSupports = state => state.supports;
